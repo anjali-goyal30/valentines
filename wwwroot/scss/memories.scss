@@ -1,0 +1,48 @@
+﻿body {
+    background: url("../images/background.jpg") no-repeat;
+    /*background-color: black;*/
+    background-size: cover;
+}
+
+#carouselExampleSlidesOnly {
+    max-width: 80%;
+    margin-top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .carousel-inner {
+        max-width: 100%;
+
+        .carousel-item {
+            max-width: 100%;
+
+            img {
+                height: 20%;
+            }
+        }
+    }
+}
+
+.memory-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10%;
+    margin-left: 25px;
+
+    .card {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 40%;
+        height: 150px;
+        box-shadow: 5px;
+
+        img {
+            height: 85%;
+        }
+    }
+}
+
+p{
+    color: white;
+}

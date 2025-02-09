@@ -1,0 +1,21 @@
+﻿body {
+    background: url("../images/background.jpg") no-repeat;
+    /*background-color: black;*/
+    background-size: cover;
+}
+
+.align-btn-center{
+    text-align:center;
+}
+
+.final-card {
+    margin: 20px;
+
+    .card-body {
+        text-align: center;
+
+        .card-title {
+            color: brown;
+        }
+    }
+}

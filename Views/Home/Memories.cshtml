@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Memories Page";
+    Layout = "";
+}
+@Html.Hidden("claimUrl", @Url.Action("Final", "Home"))
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyApplication</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/memories.css" />
+</head>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="~/images/carousel1.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="~/images/carousel2.jpeg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="~/images/carousel3.jpeg" alt="Third slide">
+        </div>
+    </div>
+</div>
+<div class="memory-cards">
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage1.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage2.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage3.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage4.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage5.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage6.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage7.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage8.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage9.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage10.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage11.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="~/images/cardimage12.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text"></p>
+        </div>
+    </div>
+</div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="~/images/carousel4.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="~/images/carousel5.jpeg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="~/images/carousel6.jpeg" alt="Third slide">
+        </div>
+    </div>
+</div>
+<div class="text-center">    
+    <p><strong><em>This was just a trial!</em></strong></p>
+    <p><strong><em>Asli picture to abhi baaki hai!!</em></strong></p>
+    <button type="button" id="btnClaim" class="btn btn-danger">Click Me!</button><br /><br />
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/memories.js"></script>

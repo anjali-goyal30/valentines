@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "";
+}
+@Html.Hidden("claimUrl", @Url.Action("Login","Home"))
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyApplication</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+</head>
+<div class="text-center">
+    <img class="valentine-img" src="~/images/valentine.gif" /><br />
+    <button type="button" id="btnClaim" class="btn btn-outline-danger">Click Here to claim your gift!</button>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="~/js/index.js"></script>
